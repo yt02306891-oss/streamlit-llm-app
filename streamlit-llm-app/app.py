@@ -11,7 +11,7 @@ from langchain_core.prompts import ChatPromptTemplate
 load_dotenv()
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")  # ← .env から取得
 
-st.set_page_config(page_title="Expert Chat (LangChain + Streamlit)", page_icon="💬", layout="centered")
+st.set_page_config(page_title="Expert Chat (LangChain + Streamlit)", page_icon="", layout="centered")
 st.title("Expert Chat（LangChain + Streamlit）")
 st.caption(
     "入力欄に相談や質問を書き、下のラジオボタンで専門家の種類を選んでください。"
